@@ -1,0 +1,10 @@
+input {
+    text-align:  center;
+    text-transform: capitalize;
+}
+button{
+    width: 100%;
+}
+h2{
+    text-transform: capitalize;
+}
