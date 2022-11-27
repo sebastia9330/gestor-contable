@@ -7,3 +7,6 @@ body {
 h1{
     color: #fff;
 }
+.textError{
+    font-size: 1rem;
+}
