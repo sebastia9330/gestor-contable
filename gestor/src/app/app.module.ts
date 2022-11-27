@@ -10,6 +10,7 @@ import { AppComponent } from './app.component';
 import { GastosComponent } from './componentes/gastos/gastos.component';
 import { IngresarPreComponent } from './componentes/ingresar-pre/ingresar-pre.component';
 import { IngresarGastosComponent } from './componentes/gastos/ingresar-gastos/ingresar-gastos.component';
+import { ListarGastoComponent } from './componentes/gastos/listar-gasto/listar-gasto.component';
 
 
 
@@ -19,6 +20,7 @@ import { IngresarGastosComponent } from './componentes/gastos/ingresar-gastos/in
     GastosComponent,
     IngresarPreComponent,
     IngresarGastosComponent,
+    ListarGastoComponent,
   ],
   imports: [
     BrowserModule,
