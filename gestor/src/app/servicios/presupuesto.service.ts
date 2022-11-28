@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { GastosComponent } from '../componentes/gastos/gastos.component';
 
 @Injectable({
   providedIn: 'root'
@@ -10,5 +11,8 @@ export class PresupuestoService {
   constructor() { 
     this.presupuesto = 0;
     this.restante = 0;
+  }
+  agregarGasto(gasto: any){
+      this.restante = this.restante - gasto.cantidad;
   }
 }
