@@ -37,8 +37,9 @@ export class IngresarGastosComponent {
         cantidad: this.cantidad,
       }
       //enviando el objeto a los suscriptores via subjet
-      //reseteamos formulario
+      this._presupuestoService.agregarGasto(GASTO);
 
+      //reseteamos formulario
         this.formularioIncorrecto = false;
         this.nombreGasto = '';
         this.cantidad = 0;
