@@ -7,7 +7,11 @@
             </div>
             <div class="card-body">
                 <input type="number" [(ngModel)]="cantidad"  class="form-control form-control-lg" placeholder="ingrese su presupuesto">
-                <button  class="btn btn-secondary btn-lg btn-block mt-2" (click)="agregar()">Aceptar</button>
+                <div class="d-flex justify-content-around">
+                    <button  class="btn btn-success btn-lg btn-block m-2" (click)="agregar()">Ingreso</button>
+                    <button  class="btn btn-secondary btn-lg btn-block m-2" (click)="agregar()">Aceptar</button>
+                    <button  class="btn btn-danger btn-lg btn-block m-2" (click)="agregar()">Gasto</button>
+            </div>
             </div>
         </div>
     </div>
